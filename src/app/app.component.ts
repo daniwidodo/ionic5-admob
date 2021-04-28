@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Plugins } from '@capacitor/core';
+const { AdMob } = Plugins;
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,7 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor() {}
+  constructor() {
+    AdMob.initialize();
+  }
 }
