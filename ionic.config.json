@@ -1,0 +1,7 @@
+{
+  "name": "ionic5-admob",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
